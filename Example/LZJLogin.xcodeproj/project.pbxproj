@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26EF020410CEAA9413151407 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		26EF020410CEAA9413151407 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2F099AEAD41CA55EA5ED43A9 /* Pods-LZJLogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZJLogin_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LZJLogin_Tests/Pods-LZJLogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		35F75C94B9E9257B80E1FC5B /* Pods_LZJLogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZJLogin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC4FFA9B011D4446ABC37E6 /* Pods-LZJLogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZJLogin_Example.debug.xcconfig"; path = "Target Support Files/Pods-LZJLogin_Example/Pods-LZJLogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7946393DDAD260AB9C3D9F69 /* Pods_LZJLogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZJLogin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B7BB798C1D9042D88964083 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8B7BB798C1D9042D88964083 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A884ACA6F78CEB69B892A633 /* Pods-LZJLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZJLogin_Tests.release.xcconfig"; path = "Target Support Files/Pods-LZJLogin_Tests/Pods-LZJLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D01E97C847AA827EDAFA01E4 /* Pods-LZJLogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZJLogin_Example.release.xcconfig"; path = "Target Support Files/Pods-LZJLogin_Example/Pods-LZJLogin_Example.release.xcconfig"; sourceTree = "<group>"; };
-		ED86C3F563DC2EB354FB2661 /* LZJLogin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LZJLogin.podspec; path = ../LZJLogin.podspec; sourceTree = "<group>"; };
+		ED86C3F563DC2EB354FB2661 /* LZJLogin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LZJLogin.podspec; path = ../LZJLogin.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				2F099AEAD41CA55EA5ED43A9 /* Pods-LZJLogin_Tests.debug.xcconfig */,
 				A884ACA6F78CEB69B892A633 /* Pods-LZJLogin_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
