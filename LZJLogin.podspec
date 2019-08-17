@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LZJLogin/Classes/**/*'
+  s.source_files = 'LZJLogin/**/*'
   s.swift_version = '4.0'
   # s.resource_bundles = {
   #   'LZJLogin' => ['LZJLogin/Assets/*.png']
