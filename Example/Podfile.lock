@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LZJLogin (0.1.0)
+  - LZJLogin (0.2.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LZJLogin: 8fe29ba48857e2ee5443202965495220fd436ef0
+  LZJLogin: f2f1eec0e795dda2cb4d7d111466a36ab3bb07ff
 
 PODFILE CHECKSUM: eb26a8025d251c3b88f698c0481f877b01ea5cfb
 

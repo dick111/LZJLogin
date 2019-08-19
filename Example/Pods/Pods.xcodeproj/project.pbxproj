@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1277EE9EF87D50BD35145F70AFAC1244 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */; };
+		15051A7E68AC928FBE51E2A92C2F02F4 /* LZJLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A6D47A42E05127D6147E213E49D2B14 /* LZJLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16B6CB23794D995D807EA10E7CEF065E /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = A4209C2D7929DC95F0AD404009CF3FE6 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		23B53071298D3370186229DDFFE472C4 /* LZJLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B5FB1EF5B3B8FDF194846A2E8FE419 /* LZJLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19D64AA2BCC791CCF6A6942FADB8B971 /* LZJLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C71FADA3837B7FEF1772C7D71DD70A /* LZJLogin-dummy.m */; };
+		20814F3DD8F4DF3CD99DC5DC128E5564 /* LZJLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D519AFF62B51A2C7388E8DF2FC3616C /* LZJLoginView.swift */; };
 		24DEF3AF3296F229268D80B50E433240 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = FE05DAD5186CEC183AAD0BC4D2F6297C /* UIImage+Snapshot.m */; };
 		26D3EEFCFCA6DC9A4EB8EAD9703ECD98 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 290D40DB23B0E1E833EB7F996C615341 /* FBSnapshotTestCase.m */; };
 		27C294AFD2251BF21CAFA97EB53DEDE3 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0390FC11C3671BEC209EA6F6AE8033 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C8E41D43E185E62965404EC1F236FA0 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FB5D637CA8F60B2B16F9375DFCA3FE /* FBSnapshotTestCase-dummy.m */; };
-		2E37793C9F46DED72E0B413FA72E65CE /* LZJLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 323E52872BCE85EA5CBDD64B64119D65 /* LZJLogin-dummy.m */; };
 		33CD52558D8E2F820100C8753AA2F32F /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BB97C946EF5DFF46CB40D7D685EE1 /* SwiftSupport.swift */; };
-		39F700C2D13D4706C62C79B6318EF433 /* LZJLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1FFBF549B65035002C6B722017261 /* LZJLogin.swift */; };
 		6F01DF0FB5610799A00AC976F981EB18 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 912F5BE09296F333F87046761D662D18 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		700E8CE0FDD79F21D428FC3D54D36C0E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B529483604801ABB9AB87D9F1FFAD9 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		72CAB3221C30C434319543DEABA56E20 /* Pods-LZJLogin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B943EA7EE8E6A14FD891590626997B3 /* Pods-LZJLogin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,12 +32,12 @@
 		D26C2D79DBE699CF44AC3BBFAE29770D /* Pods-LZJLogin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8117FE00F638189531731FA336C08CE /* Pods-LZJLogin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D428498A1A70F3DB2F9D9C921989E6B8 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 265DC60F5871575FF908A7C1AF91A133 /* UIImage+Compare.m */; };
 		D6B1B0AC7F376A0FC6DADEEAA737E508 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = C095B69FB8375794D8236558C70DAAE0 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D8F84033BDE92271016C842E28D7C5EA /* LZJLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555E2A81C29E1AEACA3CCB83D08E80B5 /* LZJLogin.swift */; };
 		DBADABF56FC0675DEE45B90CE6AFA4E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5E9FF730C28FC315DD1249D72A070C /* UIKit.framework */; };
 		E3B86D234BC43FB8877126BFDD760867 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89C323C789A72335F3693734707F15 /* FBSnapshotTestCasePlatform.m */; };
 		E7F0B09F899DBFE173736F8AE258ED48 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 2015821C6F52E13E032E0E4B9D53AFE7 /* UIImage+Diff.m */; };
 		EBE95BB5DEFBEAAB7A2145D54152284F /* Pods-LZJLogin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B574D65CE39550144DD74A3B1751B /* Pods-LZJLogin_Tests-dummy.m */; };
 		F40AD72578DEDDCE98169A577142D275 /* Pods-LZJLogin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7820143B0181E8ADFE0ECC60038C51A4 /* Pods-LZJLogin_Example-dummy.m */; };
-		F78A1080E16E3BFACF64CC3271A465F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */; };
 		F8DF0374879AD9CA64E209F5E1A423B4 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A648BA81C182E1424B9B336EA8F50B1 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -59,40 +60,39 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BBEAB30121095DA91F3C80795040CD1C;
+			remoteGlobalIDString = A00E1D2571E12D1D67F71B7D10DC5C01;
 			remoteInfo = LZJLogin;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		048FBC224D6467DB9DF41087AAFA8079 /* LZJLogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LZJLogin.xcconfig; sourceTree = "<group>"; };
 		05734EA760D464EE6F6CB085C52CB063 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		0683E57C2CD6C1CD18CBD071502EFEAA /* Pods_LZJLogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZJLogin_Tests.framework; path = "Pods-LZJLogin_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6BA0C790FE42A720273375C8D89694 /* Pods-LZJLogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZJLogin_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1068A2C407357E5DF809877070BB9C3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1A6D47A42E05127D6147E213E49D2B14 /* LZJLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZJLogin-umbrella.h"; sourceTree = "<group>"; };
 		1B89C323C789A72335F3693734707F15 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		2015821C6F52E13E032E0E4B9D53AFE7 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		265DC60F5871575FF908A7C1AF91A133 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		290D40DB23B0E1E833EB7F996C615341 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		2B0390FC11C3671BEC209EA6F6AE8033 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		2D9B06C717A66B9233B72E68B6EF712B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2FDE756F9BFE40E5AFB771DAC95D58BB /* Pods-LZJLogin_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZJLogin_Tests-Info.plist"; sourceTree = "<group>"; };
-		323E52872BCE85EA5CBDD64B64119D65 /* LZJLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LZJLogin-dummy.m"; sourceTree = "<group>"; };
 		3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3FE1FFBF549B65035002C6B722017261 /* LZJLogin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LZJLogin.swift; path = LZJLogin/Classes/LZJLogin.swift; sourceTree = "<group>"; };
-		45B5FB1EF5B3B8FDF194846A2E8FE419 /* LZJLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZJLogin-umbrella.h"; sourceTree = "<group>"; };
 		499BB97C946EF5DFF46CB40D7D685EE1 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		4A4620FD4AE1A1F6C778DEB98298394C /* Pods-LZJLogin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LZJLogin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4FB23A7A321BFD09B0985E94534A5272 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		555E2A81C29E1AEACA3CCB83D08E80B5 /* LZJLogin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LZJLogin.swift; path = LZJLogin/LZJLogin.swift; sourceTree = "<group>"; };
 		625B574D65CE39550144DD74A3B1751B /* Pods-LZJLogin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZJLogin_Tests-dummy.m"; sourceTree = "<group>"; };
 		657792B7CD8BA20CA6FB66F75AAEBFB7 /* Pods-LZJLogin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZJLogin_Example.modulemap"; sourceTree = "<group>"; };
 		659A2A64DC4B68FAB67DA25A9F93D6F5 /* Pods_LZJLogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZJLogin_Example.framework; path = "Pods-LZJLogin_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6780B03DBCC4B5E06DF39BCABD1409F4 /* LZJLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZJLogin-prefix.pch"; sourceTree = "<group>"; };
-		74315B8CB61659C364DBFBF036C9F417 /* LZJLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LZJLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6DCB424268D78ED3D6380EDF34A063A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		72360504C7CE373FA288DA1A870C795F /* LZJLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LZJLogin.modulemap; sourceTree = "<group>"; };
 		7820143B0181E8ADFE0ECC60038C51A4 /* Pods-LZJLogin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZJLogin_Example-dummy.m"; sourceTree = "<group>"; };
 		7A25F8ACAE5FDA09368D14E9F302B831 /* Pods-LZJLogin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZJLogin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D519AFF62B51A2C7388E8DF2FC3616C /* LZJLoginView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LZJLoginView.swift; path = LZJLogin/LZJLoginView.swift; sourceTree = "<group>"; };
 		7E598EA85FAF39ACA9B89D6177D1A61A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		841F562A950BC3B0D9DB87C857D478D7 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		86FDEDA66914BD6D0F76C7D4C2E178D4 /* LZJLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LZJLogin-Info.plist"; sourceTree = "<group>"; };
+		86FAC6F2B9E9F20998A9B8BD94207305 /* LZJLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LZJLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		87B2EEDA64DA0D50BD2A75C279B4CBEE /* Pods-LZJLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZJLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8B943EA7EE8E6A14FD891590626997B3 /* Pods-LZJLogin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LZJLogin_Example-umbrella.h"; sourceTree = "<group>"; };
 		90370D882009D89F77A7A44E8A634315 /* Pods-LZJLogin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZJLogin_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -106,18 +106,20 @@
 		A1DB66BABDE59E5B326284AAD222B6B9 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		A4209C2D7929DC95F0AD404009CF3FE6 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		A52DAEE2ABEBF46EE81DE7B4E1BFA6ED /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65A1D3DDC347161B7173C8FE72775F0 /* LZJLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LZJLogin-Info.plist"; sourceTree = "<group>"; };
 		A8117FE00F638189531731FA336C08CE /* Pods-LZJLogin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LZJLogin_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B14A2E55F3DC7F1B1AF781A52B0B756C /* Pods-LZJLogin_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZJLogin_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B611EAB7F7AC5135D6E65CAF0C2688BA /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		B6A66430C4DCC4233740EF4DA3630612 /* LZJLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LZJLogin.framework; path = LZJLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C095B69FB8375794D8236558C70DAAE0 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		C1C71FADA3837B7FEF1772C7D71DD70A /* LZJLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LZJLogin-dummy.m"; sourceTree = "<group>"; };
 		C3FB5D637CA8F60B2B16F9375DFCA3FE /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		C55524EA032F43268E663C59958F39B8 /* LZJLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LZJLogin.modulemap; sourceTree = "<group>"; };
 		C827F76327823B392A774772E825CE59 /* Pods-LZJLogin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZJLogin_Tests.modulemap"; sourceTree = "<group>"; };
 		CBE4EA1756325767F72616D3CD687833 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		CC5E9FF730C28FC315DD1249D72A070C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE7F7768DED5364533986A141B7BAF48 /* LZJLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZJLogin-prefix.pch"; sourceTree = "<group>"; };
 		D7B529483604801ABB9AB87D9F1FFAD9 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		E040B7DF4B0171590B5EDBD8FCDE9CBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D911DB9848F14777620AE75FC5EDB1FE /* LZJLogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LZJLogin.xcconfig; sourceTree = "<group>"; };
 		E6942863E4F9C7B25B068D635E73BFD3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		EF5C7C8B1F553296C78495F0D00AFF06 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		F5202B6C8BCD616C00A515D515E15750 /* Pods-LZJLogin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZJLogin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -137,19 +139,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFF603BB020E4286ACB78489A3857E3B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F78A1080E16E3BFACF64CC3271A465F4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B2D13FE059C829935ED805EB37071F28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				797C54982B85DA1FB589453A8FDB4C45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB3B2B578CE2F6CDEC5955114D60046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1277EE9EF87D50BD35145F70AFAC1244 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,20 +208,26 @@
 			path = "Target Support Files/Pods-LZJLogin_Tests";
 			sourceTree = "<group>";
 		};
-		2A27DCD01EDD8ABC4531D90E221380F1 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8AD143967A9C4D1B505AE4F30F0ECBD0 /* LZJLogin */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		31214CF30AD1249E16ADFD0923DD4FD4 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
 				499BB97C946EF5DFF46CB40D7D685EE1 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		4579A6F907DEA12B3BFD877EA0CB1F1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72360504C7CE373FA288DA1A870C795F /* LZJLogin.modulemap */,
+				D911DB9848F14777620AE75FC5EDB1FE /* LZJLogin.xcconfig */,
+				C1C71FADA3837B7FEF1772C7D71DD70A /* LZJLogin-dummy.m */,
+				A65A1D3DDC347161B7173C8FE72775F0 /* LZJLogin-Info.plist */,
+				CE7F7768DED5364533986A141B7BAF48 /* LZJLogin-prefix.pch */,
+				1A6D47A42E05127D6147E213E49D2B14 /* LZJLogin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LZJLogin";
 			sourceTree = "<group>";
 		};
 		471E7C76551187D2A098DBB64474F103 /* Products */ = {
@@ -233,39 +241,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		68054A4F2980ECE815469D807B320FF5 /* Pod */ = {
+		95A0C0D9BE70DD23B9E1D8B41B54B703 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2D9B06C717A66B9233B72E68B6EF712B /* LICENSE */,
-				74315B8CB61659C364DBFBF036C9F417 /* LZJLogin.podspec */,
-				E040B7DF4B0171590B5EDBD8FCDE9CBA /* README.md */,
+				1068A2C407357E5DF809877070BB9C3D /* LICENSE */,
+				86FAC6F2B9E9F20998A9B8BD94207305 /* LZJLogin.podspec */,
+				6DCB424268D78ED3D6380EDF34A063A9 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		8AD143967A9C4D1B505AE4F30F0ECBD0 /* LZJLogin */ = {
-			isa = PBXGroup;
-			children = (
-				3FE1FFBF549B65035002C6B722017261 /* LZJLogin.swift */,
-				68054A4F2980ECE815469D807B320FF5 /* Pod */,
-				8FA2624088AC1F880A884BF8571BCE9A /* Support Files */,
-			);
-			name = LZJLogin;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		8FA2624088AC1F880A884BF8571BCE9A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C55524EA032F43268E663C59958F39B8 /* LZJLogin.modulemap */,
-				048FBC224D6467DB9DF41087AAFA8079 /* LZJLogin.xcconfig */,
-				323E52872BCE85EA5CBDD64B64119D65 /* LZJLogin-dummy.m */,
-				86FDEDA66914BD6D0F76C7D4C2E178D4 /* LZJLogin-Info.plist */,
-				6780B03DBCC4B5E06DF39BCABD1409F4 /* LZJLogin-prefix.pch */,
-				45B5FB1EF5B3B8FDF194846A2E8FE419 /* LZJLogin-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LZJLogin";
 			sourceTree = "<group>";
 		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
@@ -274,6 +257,18 @@
 				1EBD46818714F8BE58753F7F9B38D221 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C08F4ADAE756B9BA3730ECDE24CF0E79 /* LZJLogin */ = {
+			isa = PBXGroup;
+			children = (
+				555E2A81C29E1AEACA3CCB83D08E80B5 /* LZJLogin.swift */,
+				7D519AFF62B51A2C7388E8DF2FC3616C /* LZJLoginView.swift */,
+				95A0C0D9BE70DD23B9E1D8B41B54B703 /* Pod */,
+				4579A6F907DEA12B3BFD877EA0CB1F1B /* Support Files */,
+			);
+			name = LZJLogin;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C26B4477239A0CB2905BEA8D4DC943CA /* Targets Support Files */ = {
@@ -289,7 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2A27DCD01EDD8ABC4531D90E221380F1 /* Development Pods */,
+				F0E23EA72FE3C90E0B04E5FACA983A64 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				471E7C76551187D2A098DBB64474F103 /* Products */,
@@ -354,9 +349,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F0E23EA72FE3C90E0B04E5FACA983A64 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C08F4ADAE756B9BA3730ECDE24CF0E79 /* LZJLogin */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2EB4A65498550841977DF6A9D4994A2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15051A7E68AC928FBE51E2A92C2F02F4 /* LZJLogin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3ADD5373413FFA3A6950F04FC926D970 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -385,14 +396,6 @@
 				D6B1B0AC7F376A0FC6DADEEAA737E508 /* UIImage+Compare.h in Headers */,
 				16B6CB23794D995D807EA10E7CEF065E /* UIImage+Diff.h in Headers */,
 				700E8CE0FDD79F21D428FC3D54D36C0E /* UIImage+Snapshot.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FDDC8D048F26BC817B8732F205AAF362 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23B53071298D3370186229DDFFE472C4 /* LZJLogin-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +440,24 @@
 			productReference = A52DAEE2ABEBF46EE81DE7B4E1BFA6ED /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		A00E1D2571E12D1D67F71B7D10DC5C01 /* LZJLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E9415871622E406AEF2484A21ECA08 /* Build configuration list for PBXNativeTarget "LZJLogin" */;
+			buildPhases = (
+				2EB4A65498550841977DF6A9D4994A2A /* Headers */,
+				3BA5631E824B925AEA08C748AE8AC1CE /* Sources */,
+				CEB3B2B578CE2F6CDEC5955114D60046 /* Frameworks */,
+				85516B0B6636BE43541C47AD41DEF476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZJLogin;
+			productName = LZJLogin;
+			productReference = B6A66430C4DCC4233740EF4DA3630612 /* LZJLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A7E2B7E6AA8B83801331A7BF95C92FCC /* Pods-LZJLogin_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 949FB14C6A48E6C79B725C63F6BA491A /* Build configuration list for PBXNativeTarget "Pods-LZJLogin_Example" */;
@@ -454,24 +475,6 @@
 			name = "Pods-LZJLogin_Example";
 			productName = "Pods-LZJLogin_Example";
 			productReference = 659A2A64DC4B68FAB67DA25A9F93D6F5 /* Pods_LZJLogin_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BBEAB30121095DA91F3C80795040CD1C /* LZJLogin */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75828E1B3000E092FBAE0E987B83D2C5 /* Build configuration list for PBXNativeTarget "LZJLogin" */;
-			buildPhases = (
-				FDDC8D048F26BC817B8732F205AAF362 /* Headers */,
-				86FD1215E8777B5ECBE2FBF5563DACB6 /* Sources */,
-				AFF603BB020E4286ACB78489A3857E3B /* Frameworks */,
-				4F438FF17946084063485A4AEC5DFDE8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LZJLogin;
-			productName = LZJLogin;
-			productReference = B6A66430C4DCC4233740EF4DA3630612 /* LZJLogin.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -496,7 +499,7 @@
 			projectRoot = "";
 			targets = (
 				6D3ACFDE390FE76465A1132EC9A7DF15 /* FBSnapshotTestCase */,
-				BBEAB30121095DA91F3C80795040CD1C /* LZJLogin */,
+				A00E1D2571E12D1D67F71B7D10DC5C01 /* LZJLogin */,
 				A7E2B7E6AA8B83801331A7BF95C92FCC /* Pods-LZJLogin_Example */,
 				1FF364DF671BEA93320691B69B59A105 /* Pods-LZJLogin_Tests */,
 			);
@@ -511,7 +514,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F438FF17946084063485A4AEC5DFDE8 /* Resources */ = {
+		85516B0B6636BE43541C47AD41DEF476 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -559,12 +562,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86FD1215E8777B5ECBE2FBF5563DACB6 /* Sources */ = {
+		3BA5631E824B925AEA08C748AE8AC1CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E37793C9F46DED72E0B413FA72E65CE /* LZJLogin-dummy.m in Sources */,
-				39F700C2D13D4706C62C79B6318EF433 /* LZJLogin.swift in Sources */,
+				19D64AA2BCC791CCF6A6942FADB8B971 /* LZJLogin-dummy.m in Sources */,
+				D8F84033BDE92271016C842E28D7C5EA /* LZJLogin.swift in Sources */,
+				20814F3DD8F4DF3CD99DC5DC128E5564 /* LZJLoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,7 +586,7 @@
 		70D6A81FFB83BC9D24C519621734B769 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LZJLogin;
-			target = BBEAB30121095DA91F3C80795040CD1C /* LZJLogin */;
+			target = A00E1D2571E12D1D67F71B7D10DC5C01 /* LZJLogin */;
 			targetProxy = 8E8A5BB6D7E40E93052AFBA5181AACFC /* PBXContainerItemProxy */;
 		};
 		A73DE9B1143A3B7E9A924FD2CB8DAB05 /* PBXTargetDependency */ = {
@@ -600,6 +604,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3AC5C64EE8389BCF8BEBB3279A0FB8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D911DB9848F14777620AE75FC5EDB1FE /* LZJLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LZJLogin/LZJLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LZJLogin/LZJLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LZJLogin/LZJLogin.modulemap";
+				PRODUCT_MODULE_NAME = LZJLogin;
+				PRODUCT_NAME = LZJLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3DD86C263FBD0570D9BABEBD922E0E43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 87B2EEDA64DA0D50BD2A75C279B4CBEE /* Pods-LZJLogin_Tests.release.xcconfig */;
@@ -734,6 +770,37 @@
 			};
 			name = Release;
 		};
+		9FB093A6A2FB7053731F95A83CDADBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D911DB9848F14777620AE75FC5EDB1FE /* LZJLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LZJLogin/LZJLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LZJLogin/LZJLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LZJLogin/LZJLogin.modulemap";
+				PRODUCT_MODULE_NAME = LZJLogin;
+				PRODUCT_NAME = LZJLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -819,69 +886,6 @@
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AE052DEEE04209CF54881B1A71046C34 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 048FBC224D6467DB9DF41087AAFA8079 /* LZJLogin.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LZJLogin/LZJLogin-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LZJLogin/LZJLogin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LZJLogin/LZJLogin.modulemap";
-				PRODUCT_MODULE_NAME = LZJLogin;
-				PRODUCT_NAME = LZJLogin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C484009032BE911F0C8A02B31072251B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 048FBC224D6467DB9DF41087AAFA8079 /* LZJLogin.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LZJLogin/LZJLogin-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LZJLogin/LZJLogin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LZJLogin/LZJLogin.modulemap";
-				PRODUCT_MODULE_NAME = LZJLogin;
-				PRODUCT_NAME = LZJLogin;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -996,6 +1000,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		06E9415871622E406AEF2484A21ECA08 /* Build configuration list for PBXNativeTarget "LZJLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB093A6A2FB7053731F95A83CDADBBD /* Debug */,
+				3AC5C64EE8389BCF8BEBB3279A0FB8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		261BA5DFB4545DDF7EA1ACB556473952 /* Build configuration list for PBXNativeTarget "Pods-LZJLogin_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1010,15 +1023,6 @@
 			buildConfigurations = (
 				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
 				F232B5ECA11A71BFA199A229B323F454 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		75828E1B3000E092FBAE0E987B83D2C5 /* Build configuration list for PBXNativeTarget "LZJLogin" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE052DEEE04209CF54881B1A71046C34 /* Debug */,
-				C484009032BE911F0C8A02B31072251B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -11,4 +11,5 @@ import UIKit
 class LZJLoginView: NSObject {
 
     var loginView: UIView?
+    
 }
